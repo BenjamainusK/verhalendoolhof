@@ -68,7 +68,7 @@ footer {
 }
 
 img {
-    width: 100%;
+    max-width: 700px;
     height: auto;
     overflow: hidden;
     padding-top: 15px;
