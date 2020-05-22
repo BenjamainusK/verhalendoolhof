@@ -54,6 +54,7 @@ footer {
   border-radius: 25px;
   max-width: 1000px;
   padding: 5px;
+  position: fixed;
 
 }
     
