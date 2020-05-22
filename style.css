@@ -54,8 +54,8 @@ footer {
   padding: 5px;
   border-radius: 25px;
   position: fixed;
-  left: 0;
   bottom: 0;
+  width: 100%;
 
 }
     
