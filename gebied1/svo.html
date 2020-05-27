@@ -1,1 +1,83 @@
+<!DOCTYPE html>
 
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Verhalendoolhof">
+    
+    <title>Verhalendoolhof</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab">
+	
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<header>
+    <p><b>Verhalendoolhof</b></p>
+</header>
+
+<div class="topnav">
+    <a class="active" href="/index.html">Home</a>
+</div>
+
+<section class="wrapper">
+
+<center>	
+	
+<p>Je ligt nu samen bij de zwemsteiger lekker te zonnen. Dan opeens zie je de wereld om je heen door een roze bril. Wat gebeurt me nou? Het lijkt wel een engel. Je komt weer bij zinnen en je beseft je dat dit beeldschone gestalte herkent. De gloed is afkomstig van het mooiste meisje dat je ooit hebt gezien. Het is de gids waar je al sinds je een groentje was een oogje op hebt. <br> Stap je op haar af?</p>
+	
+  <a href="/gebied2/?.html">
+	<button class="button1">Ja</button>
+  </a>
+	
+  <a href="/gebied1/dgg.html">
+	<button class="button2">Nee, je gaat naar huis om te gamen.</button>
+  </a>
+	
+</center>
+
+<div class="skewed"></div>
+
+</section>
+
+<footer>
+    <p>Verhalendoolhof van <a href="https://rowans.ml/" target="_blank" rel="noopener">rowans.ml</a> © 2020</p>
+</footer>
+    
+</body>
+</html>
